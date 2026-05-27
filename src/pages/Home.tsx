@@ -52,7 +52,7 @@ export default function Home({ onStart, onResult, answeredCount }: Props) {
         <div className="grid gap-4">
           {[
             { icon: BarChart3, title: `${questions.length} 道双陈述题`, text: '通过左右偏好判断优势倾向' },
-            { icon: Brain, title: `${traits.length} 个优势维度`, text: '覆盖执行、影响、关系、思维四类能力' },
+            { icon: Brain, title: `${traits.length} 个优势维度`, text: '覆盖执行力、影响力、关系建立、战略思维四大类能力' },
             { icon: CheckCircle2, title: '本地保存答案', text: '无需后端，localStorage 即可保存进度' }
           ].map((item) => (
             <div key={item.title} className="rounded-3xl border border-slate-100 bg-white p-5 shadow-sm">
@@ -65,7 +65,7 @@ export default function Home({ onStart, onResult, answeredCount }: Props) {
       </section>
 
       <section id="features" className="grid gap-4 md:grid-cols-4">
-        {['执行力', '影响力', '关系力', '思维力'].map((group) => (
+        {['执行力', '影响力', '关系建立', '战略思维'].map((group) => (
           <div key={group} className="rounded-3xl border border-white/80 bg-white/80 p-5 shadow-sm backdrop-blur">
             <h2 className="text-lg font-black text-slate-950">{group}</h2>
             <div className="mt-4 flex flex-wrap gap-2">
