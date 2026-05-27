@@ -2,11 +2,11 @@ import { Question } from '../data/questions'
 import { AnswerValue } from '../utils/scoring'
 
 const options: { value: AnswerValue; label: string; short: string }[] = [
-  { value: 1, label: '非常像左边', short: '左++' },
-  { value: 2, label: '有点像左边', short: '左+' },
+  { value: 1, label: '非常像左边', short: '左A' },
+  { value: 2, label: '有点像左边', short: '左A' },
   { value: 3, label: '两者相当', short: '中立' },
-  { value: 4, label: '有点像右边', short: '右+' },
-  { value: 5, label: '非常像右边', short: '右++' }
+  { value: 4, label: '有点像右边', short: '右B' },
+  { value: 5, label: '非常像右边', short: '右B' }
 ]
 
 type Props = {
