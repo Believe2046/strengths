@@ -31,7 +31,7 @@ export default function Home({ onStart, onResult, answeredCount }: Props) {
       <section className="grid gap-8 rounded-[2.5rem] border border-white/80 bg-white/75 p-6 shadow-soft backdrop-blur md:grid-cols-[1.1fr_0.9fr] md:p-10">
         <div className="flex flex-col justify-center">
           <div className="mb-5 inline-flex w-fit items-center gap-2 rounded-full bg-indigo-50 px-4 py-2 text-sm font-bold text-indigo-700">
-            <ShieldCheck size={16} /> 本地运行 / 前端计分 / 可部署 GitHub Pages
+            <ShieldCheck size={16} /> 隐私保护 / 报告本地存储 / 也可截图留存
           </div>
           <h1 className="text-4xl font-black tracking-tight text-slate-950 md:text-6xl">
             发现你的优势倾向，生成一份清晰的个人画像。
